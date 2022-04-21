@@ -1,4 +1,5 @@
 import pandas as pd
+url = 'https://github.com/Bungeetech/internship-test2/blob/master/input/question-3/main.csv'
 euro12 = pd.read_csv(url, ',')
 euro12
 discipline = euro12[['Team','Yellow Cards','Red Cards']]
